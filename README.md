@@ -46,8 +46,8 @@ Cada falha de login incrementa `failed_attempts` em `login_attempts`. Na segunda
 | `usuarios_bloqueados` | usuários bloqueados (lido de `login_attempts`) |
 
 ## Dashboard
-- Print: `docs/dashboard-grafana.png`
-- Exportação: `docs/dashboard-grafana-export.json`
+- Print: `grafana_docs/dashboard_grafana.png`
+- Exportação: `grafana_docs/dashboard-grafana-export.json`
 - Provisionamento automático: `monitoring/grafana/dashboards/login-dashboard.json`
 
 ![dashboard](grafana_docs/dashboard_grafana.png)

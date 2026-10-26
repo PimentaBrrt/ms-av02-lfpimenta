@@ -50,7 +50,7 @@ Cada falha de login incrementa `failed_attempts` em `login_attempts`. Na segunda
 - Exportação: `docs/dashboard-grafana-export.json`
 - Provisionamento automático: `monitoring/grafana/dashboards/login-dashboard.json`
 
-![dashboard](docs/dashboard-grafana.png)
+![dashboard](grafana_docs/dashboard_grafana.png)
 
 ## Observações
 - A coluna `usuarios.senha` é `VARCHAR(10)` conforme o enunciado, por isso as senhas ficam em texto puro (`{noop}` no Spring Security).
